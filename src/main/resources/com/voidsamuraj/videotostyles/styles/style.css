@@ -1,0 +1,76 @@
+.backgroundColor{
+    -fx-background-color: linear-gradient(to top, #141e30,#243b55);
+    -fx-background-color: linear-gradient(to top,#004e92, #000428);
+}
+
+.label{
+-fx-text-fill: #F0F7F4;
+}
+
+
+.check-box{
+-fx-text-fill: #F0F7F4;
+}
+.slider>.track{
+   -fx-background-radius: 0;
+}
+.slider>.thumb{
+   -fx-pref-height: 14px;
+   -fx-pref-width: 8px;
+   -fx-background-radius: 0;
+}
+
+#frame_slider>.track{
+   -fx-background-radius: 5;
+   -fx-background-color: linear-gradient(to right, #000428, #004e92, #000428);
+   -fx-pref-height: 20px;
+   -fx-effect: dropshadow(gaussian, black, 30, 0.4, 0, 0);
+
+}
+#frame_slider>.thumb{
+
+   -fx-pref-height: 30px;
+   -fx-pref-width: 15px;
+   -fx-background-radius: 5;
+   -fx-background-color: #00B4DB;
+}
+
+// ChoiceBox Background color
+.choice-box {
+  -fx-pref-width: 160;
+ -fx-pref-height: 30;
+  -fx-background-color: linear-gradient(to right, #3083DC 0%, #00B4DB  51%, #3083DC  100%);
+
+  -fx-mark-color: #F0F7F4; // arrow color
+}
+.choice-box .context-menu {
+  -fx-pref-width: 160;
+  -fx-background-color: #000428;
+}
+.choice-box .menu-item:focused {
+    -fx-background-color: #004e92;
+}
+
+// ChoiceBox Text color
+.choice-box  .label {
+ -fx-padding: 0 0 0 20;
+ -fx-text-fill: #F0F7F4;
+ }
+
+.button{
+ -fx-background-color: linear-gradient(to right, #3083DC 0%, #00B4DB  51%, #3083DC  100%);
+ -fx-text-fill: #F0F7F4;
+}
+
+#save_button{
+     -fx-pref-width: 160;
+     -fx-pref-height: 50;
+}
+.progress-bar>.bar{
+   -fx-background-radius: 2;
+
+}
+.progress-bar>.track{
+   -fx-background-radius: 2;
+
+}
