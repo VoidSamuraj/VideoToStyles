@@ -7,5 +7,9 @@ JavaFx application changing video style to ascii/dots. Requires OpenCv and ffmpe
   <img src="https://github.com/VoidSamuraj/VideoToStyles/blob/master/images/ascii2.png?raw=true"  height="200"/>
   <img src="https://github.com/VoidSamuraj/VideoToStyles/blob/master/images/ascii1.png?raw=true"  height="200"/>
   <br/>
-  [![demonstration]](https://github.com/VoidSamuraj/VideoToStyles/blob/master/images/VideoToStyles.mp4)
+
+
+[demonstration](https://user-images.githubusercontent.com/49106260/213887038-32b162d2-7760-4b74-9cb2-d18960875e2f.mp4)
+
+
 </p>
