@@ -20,7 +20,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 public class EditorController  implements Initializable {
@@ -151,9 +151,9 @@ public class EditorController  implements Initializable {
         };
         progressBar.progressProperty().bind(task.progressProperty());
 
-        try (ExecutorService executor = Executors.newSingleThreadExecutor()) {
-            executor.execute(task);
-        }
+        Executor executor = Executors.newSingleThreadExecutor();
+        executor.execute(task);
+
 
 
     }
