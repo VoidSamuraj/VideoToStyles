@@ -30,7 +30,8 @@ public class VideoToStylesApplication extends Application {
     }
 
     public static void main(String[] args) {
-        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        //System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        nu.pattern.OpenCV.loadLocally(); // Use OpenCV from openpnp maven package
 
         launch();
     }
