@@ -117,7 +117,6 @@ public class EditorController  implements Initializable {
                 else
                     VideoToStyle.dotsImage(matrix,color.isSelected(),shift.isSelected(),(int)Math.round(dot_slider.getValue()));
                 Image toDisplay=VideoToStyle.fromMatToImage(matrix);
-                ImageIO.write(SwingFXUtils.fromFXImage(toDisplay, null),"png",new File("M:\\download\\test.png"));
                 imageView.setImage(toDisplay);
             } catch (IOException e) {
                 throw new RuntimeException(e);
