@@ -1,5 +1,5 @@
 # VideoToStyles
-JavaFx application changing video style to ascii/dots. Requires OpenCv and ffmpeg.
+JavaFx application changing video style to ascii/dots. Uses OpenCv and ffmpeg.
 <p align="center">
   <img src="https://github.com/VoidSamuraj/VideoToStyles/blob/master/images/dots1.png?raw=true"  width="300"/> 
   <img src="https://github.com/VoidSamuraj/VideoToStyles/blob/master/images/dots2.png?raw=true"  width="300"/> 
